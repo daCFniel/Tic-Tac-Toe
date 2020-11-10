@@ -1,0 +1,31 @@
+/*Style the board of the game*/
+table {
+    border-collapse: collapse; 
+}
+td {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 150px;
+    height: 150px;
+    font-size: 6em;
+    text-align: center;
+}
+.box2, .box8 {
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+}
+.box4, .box6 {
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+}
+.box5 {
+    border: 3px solid black;
+}
+/*Style the winning message*/
+#winMessage{
+    display: hidden;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 3rem;
+    margin: 1vw;
+    background-color: transparent;
+
